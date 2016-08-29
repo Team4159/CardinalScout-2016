@@ -1,0 +1,61 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left">
+      <a href="#" class="back link">
+        <i class="icon icon-back"></i>
+        <span>Back</span>
+       </a>
+    </div>
+    <div class="center sliding">Pre-Match</div>
+  </div>
+</div>
+<div class="pages">
+  <div data-page="prematch" class="page">
+    <div class="page-content">
+      <form name="prematch" class="list-block">
+        <ul>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-name"></i></div>
+              <div class="item-inner">
+                <div class="item-title label">Team #</div>
+                <div class="item-input">
+                  <input type="tel" name="teamnumber" placeholder="Ex.4159">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-name"></i></div>
+              <div class="item-inner">
+                <div class="item-title label">Match #</div>
+                <div class="item-input">
+                  <input type="tel" name="matchnumber" placeholder="Ex.69">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-gender"></i></div>
+              <div class="item-inner">
+                <div class="item-title label">Alliance</div>
+                <div class="item-input">
+                  <select name="alliance">
+                    <option>Red</option>
+                    <option>Blue</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </form>
+      <div class="content-block">
+        <p>Before you proceed! <font color="red">Make sure you have a name and do not input emojis or commas in the comments as that will mess up the csv format.</font></p>
+        <a href="#" class="button button-big button-fill color-green" onclick="savePreMatch()">Next</a>
+      </div>
+    </div>
+  </div>
+</div>

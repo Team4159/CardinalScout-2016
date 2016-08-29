@@ -1,0 +1,34 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left">
+      <a href="#" class="link icon-only" onclick="scanQR()"><i class="icon icon-camera-custom"></i></a>
+    </div>
+    <div class="center sliding">Scan</div>
+    <div class="right">
+      <a href="#" class="link icon-only" onclick="shareScannedData()"><i class="icon icon-share"></i></a>
+    </div>
+  </div>
+</div>
+<div class="pages">
+  <div data-page="scan" class="page no-swipeback">
+    <div class="page-content">
+      <div class="content-block">
+        <div class="content-block-title">Recently scanned</div>
+        <div class="content-block-inner">
+          <div id="recentScannedMatchData"></div>
+        </div>
+        <div class="content-block-title">All Scanned Data</div>
+        <div class="content-block-inner">
+          <div id="scannedMatchData"></div>
+        </div>
+        <p><a href="#" class="button button-fill color-red button-round" onclick="resetAllScannedData()">Reset</a></p>
+      </div>
+    </div>
+    <div class="toolbar">
+      <div class="toolbar-inner">
+        <a href="index.html" class="link no-animation">Scout</a>
+        <a href="#" class="link no-animation">Scan</a>
+      </div>
+    </div>
+  </div>
+</div>

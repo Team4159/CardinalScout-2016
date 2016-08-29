@@ -1,0 +1,116 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="center sliding">Autonomous</div>
+  </div>
+</div>
+<div class="pages">
+  <div data-page="auton" class="page no-swipeback">
+    <div class="page-content">
+      <div class="content-block-title">Moving</div>
+      <form name="autonMoving" class="list-block">
+        <ul>
+          <li>
+            <div class="item-content">
+              <div class="item-inner">
+                <div class="item-title label">Starts</div>
+                <div class="item-input">
+                  <select name="startingPosition">
+                    <option>Neutral Zone</option>
+                    <option>Opp. Courtyard</option>
+                    <option>Own Courtyard</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner">
+                <div class="item-title label">Defense</div>
+                <div class="item-input">
+                  <select name="defence">
+                    <option>Didn't Attempt</option>
+                    <option>Portcullis</option>
+                    <option>Cheval de Frise</option>
+                    <option>Moat</option>
+                    <option>Ramparts</option>
+                    <option>Draw Bridge</option>
+                    <option>Sally Port</option>
+                    <option>Rock Wall</option>
+                    <option>Rough Terrain</option>
+                    <option>Low Bar</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner">
+                <div class="item-title label">Action</div>
+                <div class="item-input">
+                  <select name="defenceAction">
+                    <option>Didn't Attempt</option>
+                    <option>Reached</option>
+                    <option>Crossed</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </form>
+      <div class="content-block-title">Shooting</div>
+      <form name="autonShooting" class="list-block">
+        <ul>
+          <li>
+            <div class="item-content">
+              <div class="item-inner">
+                <div class="item-title label">Goal</div>
+                <div class="item-input">
+                  <select name="goal">
+                    <option>Didn't Attempt</option>
+                    <option>Low Goal</option>
+                    <option>High Goal</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner">
+                <div class="item-title label">Success</div>
+                <div class="item-input">
+                  <select name="success">
+                    <option>Didn't Attempt</option>
+                    <option>Missed</option>
+                    <option>Score</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </form>
+      <div class="content-block-title">Notes</div>
+      <form name="autonNotes" class="list-block">
+        <ul>
+          <li class="align-top">
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-comment"></i></div>
+              <div class="item-inner">
+                <div class="item-input">
+                  <textarea class="resizable" name="notes" placeholder="Ex. 2 ball auto"></textarea>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </form>
+      <div class="content-block">
+        <a href="#" class="button button-big button-fill color-green" onclick="saveAuton()">Next</a>
+      </div>
+    </div>
+  </div>
+</div>
